@@ -1,1 +1,3 @@
-const NewUser
+const NewUser = (props) => {
+    
+}
