@@ -1,7 +1,7 @@
 const Users = (props) => {
     return (
-        <Card className='us'>
-
+        <Card className='user-container'>
+            
         </Card>
     )
 }
