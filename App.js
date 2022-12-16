@@ -15,8 +15,8 @@ const App = () => {
     <div>
       <User user={users[0]}>
       </User>
-      <User user
-
+      <User user={users[1]}>
+      </User>
     </div>
   );
 }
