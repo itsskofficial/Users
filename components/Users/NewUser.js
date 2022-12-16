@@ -2,7 +2,7 @@ import Card from '../UI/Card'
 
 const NewUser = (props) => {
     return (
-        <Card>
+        <Card className='new-user-form-container'>
             <form class>
         </Card>
     )
