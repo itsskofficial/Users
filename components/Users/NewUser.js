@@ -1,4 +1,4 @@
-import Card
+import Card from '../'
 
 const NewUser = (props) => {
     return (
