@@ -1,7 +1,11 @@
 import Users from "./components/Users/Users";
 
 const App = () => {
-  users = []
+  users = [
+    {
+      name: 'Sarthak',
+    }
+  ]
   return (
     <div>
       <Users user={users[0]}>
