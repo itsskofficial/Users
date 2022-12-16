@@ -7,7 +7,8 @@ const NewUser = (props) => {
                 <div className='new-user-forn-label-container'>
                     <h2 className='new-user-form-label'>
                         Enter details
-                    
+                    </h2>
+                </div>
             </form>
         </Card>
     )
