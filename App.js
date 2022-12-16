@@ -8,13 +8,14 @@ const App = () => {
     },
     {
       name:'Ojaswini',
+      age:19
     }
   ]
   return (
     <div>
       <Users user={users[0]}>
-
       </Users>
+      
     </div>
   );
 }
