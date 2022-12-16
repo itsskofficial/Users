@@ -5,6 +5,9 @@ const App = () => {
     {
       name: 'Sarthak',
       age: 19
+    },
+    {
+      name:'Ojaswini',
     }
   ]
   return (
