@@ -5,7 +5,7 @@ const Users = (props) => {
                 {props.userName}
             </h1>
             <h2>
-                
+                {props.user}
             </h2>
         </Card>
     )
