@@ -1,5 +1,5 @@
 const Card = (props) => {
     return (
-        <div c></div>
+        <div className=`card ``></div>
     )
 }
