@@ -15,6 +15,7 @@ const App = () => {
     <div>
       <User user={users[0]}>
       </User>
+      <User user
 
     </div>
   );
