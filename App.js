@@ -4,6 +4,7 @@ const App = () => {
   users = [
     {
       name: 'Sarthak',
+      age: 19
     }
   ]
   return (
