@@ -2,8 +2,11 @@ const Users = (props) => {
     return (
         <Card className='user-container'>
             <h1>
-                {props.userN}
+                {props.userName}
             </h1>
+            <h2>
+                
+            </h2>
         </Card>
     )
 }
