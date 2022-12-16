@@ -13,8 +13,8 @@ const App = () => {
   ]
   return (
     <div>
-      <Users user={users[0]}>
-      </Users>
+      <User user={users[0]}>
+      </User>
 
     </div>
   );
