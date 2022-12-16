@@ -1,4 +1,4 @@
-import './'
+import './css/Card.css'
 
 const Card = (props) => {
     return (
@@ -6,3 +6,4 @@ const Card = (props) => {
         </div>
     )
 }
+
