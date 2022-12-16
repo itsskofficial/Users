@@ -4,7 +4,7 @@ const User = (props) => {
             <h1 className='user-name'>
                 {props.user.name}
             </h1>
-            <h2>
+            <h2 className='user-age'>
                 {props.user.age}
             </h2>
         </Card>
