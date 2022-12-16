@@ -1,4 +1,4 @@
-import Users from "./components/Users/Users";
+import User from "./components/Users/User";
 
 const App = () => {
   users = [
@@ -15,7 +15,7 @@ const App = () => {
     <div>
       <Users user={users[0]}>
       </Users>
-      
+
     </div>
   );
 }

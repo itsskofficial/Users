@@ -1,4 +1,4 @@
-const Users = (props) => {
+const User = (props) => {
     return (
         <Card className='user-container'>
             <h1>
@@ -11,4 +11,4 @@ const Users = (props) => {
     )
 }
 
-export default Users
+export default User
