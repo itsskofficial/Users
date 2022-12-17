@@ -1,3 +1,5 @@
+import Card
+
 const User = (props) => {
     return (
         <Card className='user-container'>
