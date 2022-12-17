@@ -1,5 +1,5 @@
 import Card from '../UI/Card'
-import './css/Use.css'
+import './css/User.css'
 
 const User = (props) => {
     return (
