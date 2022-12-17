@@ -2,7 +2,7 @@ import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
 
 const App = () => {
-  users = [
+  let users = [
     {
       name: 'Sarthak',
       age: 19
