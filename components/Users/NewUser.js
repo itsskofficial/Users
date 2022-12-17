@@ -9,7 +9,8 @@ const NewUser = (props) => {
         event.preventDefault()
         event.stopPropagation()
         return {
-            name:
+            name:userName,
+            age:user
         }
     }
 
