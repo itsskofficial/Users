@@ -1,6 +1,6 @@
 import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
-import 'index.css'
+import './index.css'
 
 const App = () => {
   let users = [
