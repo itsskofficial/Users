@@ -3,7 +3,7 @@ import './css/NewUser.css'
 const NewUser = (props) => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
-        event.
+        event.stopPropogation()
     }
     return (
         <div>
