@@ -2,9 +2,10 @@ import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
 import Card from './components/UI/Card'
 import './index.css'
+import { useState } from "react"
 
 const App = () => {
-  const [usersList,setUsersList]
+  const [usersList,setUsersList] = useState()
   let users = [
     {
       name: 'Sarthak',
