@@ -15,6 +15,7 @@ const App = () => {
   ]
   return (
     <div className='container'>
+      <Card className='new-user-forn'
       <NewUser>
       </NewUser>
       <User user={users[0]}>
