@@ -14,7 +14,8 @@ body {
 }
 
 #root{
-  alig
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
