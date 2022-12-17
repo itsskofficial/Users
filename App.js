@@ -19,7 +19,7 @@ const App = () => {
 
   const [usersList, setUsersList] = useState(users)
   
-  const addNewUser = (user) => {
+  const addNewUserHandler = (user) => {
     setUsersList((previousUsers) => {
       return [user,...previousUsers]
     })
@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className='container'>
       <Card className='new-user-container'>
-        <NewUser onAddUser = {new}>
+        <NewUser onAddUser = {addNewUserHandler}>
         </NewUser>
       </Card>
       <User user={users[0]}>
