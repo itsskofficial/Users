@@ -4,6 +4,7 @@ import Card from './components/UI/Card'
 import './index.css'
 
 const App = () => {
+  const [users]
   let users = [
     {
       name: 'Sarthak',
