@@ -4,7 +4,7 @@ import Card from './components/UI/Card'
 import './index.css'
 
 const App = () => {
-  const [users]
+  const [usersList,setUsersList]
   let users = [
     {
       name: 'Sarthak',
