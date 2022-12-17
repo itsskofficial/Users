@@ -4,6 +4,7 @@ import './css/NewUser.css'
 const NewUser = (props) => {
     return (
         <div>
+                 <Card className='new-user-form-container'></Card>
             <h1></h1>
             <form className='new-user-form'>
                 <div className='new-user-forn-label-container'>
