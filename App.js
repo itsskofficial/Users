@@ -19,7 +19,7 @@ const App = () => {
 
   const [usersList, setUsersList] = useState(users)
   
-  on
+  const addNewUser
 
   
   return (
