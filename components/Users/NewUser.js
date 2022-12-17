@@ -3,7 +3,7 @@ import './css/NewUser.css'
 const NewUser = (props) => {
     return (
         <div>
-                <form className='new-user-form'>
+                <form className='new-user-form' onSubmit={formSubmitHandler}>
                     <div className='new-user-forn-label-container'>
                         <h2 className='new-user-form-label'>
                             Enter details
