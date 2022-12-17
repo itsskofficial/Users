@@ -14,7 +14,9 @@ const NewUser = (props) => {
         }
     }
 
-    const 
+    const nameChangeHandler = (event) => {
+        
+    }
 
     return (
         <div>
