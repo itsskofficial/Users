@@ -10,12 +10,15 @@
 }
 
 .new-user-form-input-name{
-    
+    padding:10px;
+    border:1px solid white;
+
 }
 
 .new-user-form-input-age{
     padding:10px;
     border:1px solid white;
+    margin-left: 50px;
 }
 
 .new-user-form-button{
