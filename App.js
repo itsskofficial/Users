@@ -1,6 +1,6 @@
 import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
-import './com'
+import Card from './components/UI/Card'
 import './index.css'
 
 const App = () => {
