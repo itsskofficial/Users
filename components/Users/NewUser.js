@@ -8,10 +8,7 @@ const NewUser = (props) => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropagation()
-        return {
-            name:userName,
-            age:userAge
-        }
+        
     }
 
     const nameChangeHandler = (event) => {
