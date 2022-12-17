@@ -9,7 +9,7 @@ const NewUser = (props) => {
                         Enter details
                     </h2>
                 </div>
-                <div className='new-user-form-'
+                <div className='new-user-form-input-co'
             </form>
         </Card>
     )
