@@ -10,8 +10,8 @@ const NewUser = (props) => {
                     </h2>
                 </div>
                 <div className='new-user-form-input-container'>
-                    <input>
-                        
+                    <input className='new-user-forn-input-name'>
+                    
                     </input>
                 </div>
             </form>
