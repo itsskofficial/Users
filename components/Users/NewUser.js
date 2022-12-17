@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './css/NewUser.css'
 
 const NewUser = (props) => {
-    const [userName,setUserName] = useState('')
+    const [userName, setUserName] = useState('')
+    const [userAge,setUserAge] = use
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropogation()
