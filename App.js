@@ -13,7 +13,7 @@ const App = () => {
     }
   ]
   return (
-    <div>
+    <div className='container'>
       <User user={users[0]}>
       </User>
       <User user={users[1]}>
