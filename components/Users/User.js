@@ -1,4 +1,4 @@
-import Card
+import Card from '../UI/Card'
 
 const User = (props) => {
     return (
