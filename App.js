@@ -20,8 +20,8 @@ const App = () => {
   const [usersList, setUsersList] = useState(users)
   
   const addNewUser = (user) => {
-    setUsersList((previousUser) => {
-      
+    setUsersList((previousUsers) => {
+      return [user,...previousUsers]
     })
   }
 
