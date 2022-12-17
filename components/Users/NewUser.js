@@ -1,7 +1,7 @@
 import './css/NewUser.css'
 
 const NewUser = (props) => {
-    const [user]
+    const [userName,setUserName]
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropogation()
