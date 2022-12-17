@@ -1,7 +1,7 @@
 import Card from '../UI/Card'
 import './css/NewUser.css'
 
-const NewUser = (props) => {
+function NewUser(props) {
     return (
         <Card className='new-user-form-container'>
             <form className='new-user-form'>
