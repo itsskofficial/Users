@@ -15,7 +15,7 @@ const NewUser = (props) => {
     }
 
     const nameChangeHandler = (event) => {
-        
+        setUserNam
     }
 
     return (
