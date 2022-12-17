@@ -1,7 +1,9 @@
 import './css/NewUser.css'
 
 const NewUser = (props) => {
-    const formSubmitHandler = 
+    const formSubmitHandler = (event) => {
+        
+    }
     return (
         <div>
                 <form className='new-user-form' onSubmit={formSubmitHandler}>
