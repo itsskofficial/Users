@@ -14,6 +14,8 @@ const NewUser = (props) => {
         }
     }
 
+    const 
+
     return (
         <div>
                 <form className='new-user-form' onSubmit={formSubmitHandler}>
