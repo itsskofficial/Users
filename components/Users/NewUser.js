@@ -3,11 +3,13 @@ import './css/NewUser.css'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
-    const [userAge,setUserAge] = use
+    const [userAge,setUserAge] = useState('')
+
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropogation()
     }
+    
     return (
         <div>
                 <form className='new-user-form' onSubmit={formSubmitHandler}>
