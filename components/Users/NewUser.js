@@ -2,7 +2,7 @@ import './css/NewUser.css'
 
 const NewUser = (props) => {
     const formSubmitHandler = (event) => {
-        
+        event.preventDe
     }
     return (
         <div>
