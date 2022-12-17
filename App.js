@@ -15,7 +15,6 @@ const App = () => {
   ]
   return (
     <div className='container'>
-      <h1>Hello</h1>
       <NewUser>
       </NewUser>
       <User user={users[0]}>
