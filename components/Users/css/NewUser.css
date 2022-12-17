@@ -9,7 +9,9 @@
     display:flex;
 }
 
-.new-user-form-input-name,.new-user-form-input-age{
+.new-user-form-input-name,
+
+.new-user-form-input-age{
     padding:10px;
     border:1px solid white;
 }
