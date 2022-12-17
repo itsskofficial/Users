@@ -14,6 +14,7 @@ const App = () => {
   ]
   return (
     <div className='container'>
+      <NewUser
       <User user={users[0]}>
       </User>
       <User user={users[1]}>
