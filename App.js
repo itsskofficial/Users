@@ -5,7 +5,7 @@ import './index.css'
 import { useState } from "react"
 
 const App = () => {
-  const [usersList,setUsersList] = useState()
+  const [usersList,setUsersList] = useState('')
   let users = [
     {
       name: 'Sarthak',
