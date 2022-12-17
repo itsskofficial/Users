@@ -5,9 +5,7 @@ import './index.css'
 import { useState } from "react"
 
 const App = () => {
-  const [usersList, setUsersList] = useState(users)
-  
-  
+
   let users = [
     {
       name: 'Sarthak',
@@ -18,6 +16,11 @@ const App = () => {
       age:19
     }
   ]
+  
+  const [usersList, setUsersList] = useState(users)
+  
+
+  
   return (
     <div className='container'>
       <Card className='new-user-container'>
