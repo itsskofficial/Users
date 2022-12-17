@@ -19,8 +19,8 @@ const App = () => {
 
   const [usersList, setUsersList] = useState(users)
   
-  const addNewUser = (event) => {
-    
+  const addNewUser = (user) => {
+    setUsersList((previousState))
   }
 
   
