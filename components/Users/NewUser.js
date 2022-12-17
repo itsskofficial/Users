@@ -37,8 +37,10 @@ const NewUser = (props) => {
                         </input>
                     </div>
                     <div className = 'new-user-form-actions'>
-                        <button className='new-user-form-button' type=>
+                        <button className='new-user-form-button' type='submit'>
                             Add User
+                        </button>
+                    </div>
                 </form>
         </div>
     )
