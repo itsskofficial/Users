@@ -15,9 +15,10 @@ const App = () => {
   ]
   return (
     <div className='container'>
-      <Card className='new-user-forn'
-      <NewUser>
-      </NewUser>
+      <Card className='new-user-container'>
+    
+      </Card>
+      
       <User user={users[0]}>
       </User>
       <User user={users[1]}>
