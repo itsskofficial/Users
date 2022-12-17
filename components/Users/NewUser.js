@@ -1,4 +1,3 @@
-import Card from '../UI/Card'
 import './css/NewUser.css'
 
 const NewUser = (props) => {
