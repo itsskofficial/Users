@@ -1,6 +1,7 @@
 import './css/NewUser.css'
 
 const NewUser = (props) => {
+    const formSubmitHandler = 
     return (
         <div>
                 <form className='new-user-form' onSubmit={formSubmitHandler}>
