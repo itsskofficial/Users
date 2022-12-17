@@ -18,7 +18,9 @@ const NewUser = (props) => {
         setUserName(event.target.value)
     }
 
-    const A
+    const ageChangeHandler =(event) => {
+        setUSer
+    }
 
     return (
         <div>
