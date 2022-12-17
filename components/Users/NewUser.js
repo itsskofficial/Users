@@ -10,7 +10,7 @@ const NewUser = (props) => {
                     </h2>
                 </div>
                 <div className='new-user-form-input-container'>
-                    <input className='new-user-forn-input-name'>
+                    <input className='new-user-forn-input-name' placeholder='Enter name'>
                     </input>
                     <input class
                 </div>
