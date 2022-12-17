@@ -3,14 +3,14 @@ import './css/NewUser.css'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
-    const [userAge,setUserAge] = useState('')
+    const [userAge,setUserAge] = useState()
 
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropagation()
         return {
             name:userName,
-            age:user
+            age:userAge
         }
     }
 
