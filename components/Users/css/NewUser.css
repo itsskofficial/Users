@@ -7,7 +7,7 @@
 
 .new-user-form-input-container{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .new-user-form-input-name,.new-user-form-input-age{
