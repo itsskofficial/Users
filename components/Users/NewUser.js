@@ -4,7 +4,6 @@ import './css/NewUser.css'
 const NewUser = (props) => {
     return (
         <div>
-            <Card className='new-user-form-container'>
                 <form className='new-user-form'>
                     <div className='new-user-forn-label-container'>
                         <h2 className='new-user-form-label'>
@@ -18,7 +17,6 @@ const NewUser = (props) => {
                         </input>
                     </div>
                 </form>
-            </Card>
         </div>
     )
 }
