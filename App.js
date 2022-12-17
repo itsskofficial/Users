@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className='container'>
       <Card className='new-user-container'>
-        <NewUser >
+        <NewUser onAddUser = {new}>
         </NewUser>
       </Card>
       <User user={users[0]}>
