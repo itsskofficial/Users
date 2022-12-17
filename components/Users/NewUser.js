@@ -12,7 +12,7 @@ const NewUser = (props) => {
                 <div className='new-user-form-input-container'>
                     <input className='new-user-forn-input-name' placeholder='Enter name'>
                     </input>
-                    <input class
+                    <input className='new-user-forn-input-age' placeholder='Enter age'
                 </div>
             </form>
         </Card>
