@@ -1,5 +1,6 @@
 import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
+import './com'
 import './index.css'
 
 const App = () => {
