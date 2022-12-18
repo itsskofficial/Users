@@ -23,6 +23,7 @@ const NewUser = (props) => {
                 title:'Invalid Input',
                 message:'Please enter valid name and age'
             })
+            return
         }
 
         if (userAge === 0) {
