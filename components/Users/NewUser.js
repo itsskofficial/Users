@@ -14,7 +14,6 @@ const NewUser = (props) => {
         setUserAge(event.target.value)
         console.log(userAge)
     }
-    
 
     const formSubmitHandler = (event) => {
         console.log(userName,userAge)
