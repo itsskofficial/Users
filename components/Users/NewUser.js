@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './css/NewUser.css'
 
 const NewUser = (props) => {
-    
     const [userName, setUserName] = useState('')
     const [userAge, setUserAge] = useState()
     const [newUserForm, setNewUserForm] = useState(
