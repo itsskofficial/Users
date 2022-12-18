@@ -31,9 +31,9 @@ const NewUser = (props) => {
                         </h2>
                     </div>
                     <div className='new-user-form-input-container'>
-                        <input className='new-user-form-input-name' placeholder='Enter name' onChange={nameChangeHandler} value=>
+                        <input className='new-user-form-input-name' placeholder='Enter name' onChange={nameChangeHandler} value={userName}>
                         </input>
-                        <input className='new-user-form-input-age' placeholder='Enter age' onChange={ageChangeHandler}>
+                        <input className='new-user-form-input-age' placeholder='Enter age' onChange={ageChangeHandler} value={userAge}>
                         </input>
                     </div>
                     <div className = 'new-user-form-actions'>
