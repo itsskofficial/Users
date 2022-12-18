@@ -42,7 +42,7 @@ const NewUser = (props) => {
 
     return (
         <div>
-            {error && <ErrorModal title={error.title}}
+            {error && <ErrorModal title={error.title} message={error.message}></ErrorModal>}
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                 <div className='new-user-forn-label-container'>
                     <h2 className='new-user-form-label'>
