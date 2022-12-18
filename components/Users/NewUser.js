@@ -26,7 +26,9 @@ const NewUser = (props) => {
         }
 
         if (userAge === 0) {
-            setError()
+            setError({
+                title:'Invalid Age'
+            })
         }
         props.onAddUser({
             name: userName,
