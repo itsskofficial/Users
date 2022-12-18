@@ -12,12 +12,12 @@ const ErrorModal = (props) => {
             </header>
             <div>
                 <p>
-                    
+                    {props.message}
                 </p>
             </div>
             <footer>
                 <Button>
-
+                    Okay
                 </Button>
             </footer>
         </Card>
