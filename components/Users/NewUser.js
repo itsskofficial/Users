@@ -37,7 +37,6 @@ const NewUser = (props) => {
         })
         setUserName('')
         setUserAge('')
-
     }
 
     return (
