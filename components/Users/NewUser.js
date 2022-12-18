@@ -27,7 +27,8 @@ const NewUser = (props) => {
 
         if (userAge === 0) {
             setError({
-                title:'Invalid Age'
+                title:'Invalid Age',
+                message:'Please enter age greater than 0'
             })
         }
         props.onAddUser({
