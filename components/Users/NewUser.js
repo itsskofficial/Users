@@ -13,6 +13,17 @@ const NewUser = (props) => {
             age:userAge
         })
 
+        const nameChangeHandler = (event) => {
+            setUserName(event.target.value)
+            console.log(userName)
+        }
+    
+        const ageChangeHandler = (event) => {
+            setUserAge(event.target.value)
+            console.log(userAge)
+        }
+        
+
         setNewUserForm(
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                     <div className='new-user-forn-label-container'>
