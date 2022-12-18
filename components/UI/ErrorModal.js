@@ -23,3 +23,5 @@ const ErrorModal = (props) => {
         </Card>
     )
 }
+
+export default ErrorModal
