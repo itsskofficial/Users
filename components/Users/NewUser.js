@@ -19,7 +19,9 @@ const NewUser = (props) => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
         if (userName.trim().length === 0 || userAge.trim().length === 0) {
-            <ErrorModal title=''
+            setError({
+                
+            })
         }
         props.onAddUser({
             name: userName,
