@@ -36,6 +36,7 @@
 
   .error-content p{
     color: white;
+    margin: 0;
   }
   
   .error-actions {
