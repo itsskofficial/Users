@@ -9,8 +9,11 @@ const ErrorModal = (props) => {
                 </h2>
             </header>.
             <div>
-                <
+                <p>
+
+                </p>
             </div>
+            <foo
         </Card>
     )
 }
