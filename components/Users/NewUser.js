@@ -16,6 +16,7 @@ const NewUser = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault()
+        if user
         props.onAddUser({
             name: userName,
             age:userAge
