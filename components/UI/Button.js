@@ -1,5 +1,5 @@
 const Button = (props) => {
     return (
-        <button 
+        <button onClick={={props.onClick}}
     )
 }
