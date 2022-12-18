@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './css/NewUser.css'
+import Button from '../UI/Button'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
