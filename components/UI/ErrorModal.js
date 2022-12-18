@@ -5,7 +5,7 @@ import Button from './Button'
 const ErrorModal = (props) => {
     return (
         <div>
-            <div className='error-backdrop' on>
+            <div className='error-backdrop' onClick={props.onConfirm}>
             </div>
             <Card className='error-modal'>
                 <header className='error-header'>
