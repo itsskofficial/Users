@@ -5,6 +5,17 @@ const NewUser = (props) => {
     const [userName, setUserName] = useState('')
     const [userAge, setUserAge] = useState(0)
 
+    const nameChangeHandler = (event) => {
+        setUserName(event.target.value)
+        console.log(userName)
+    }
+
+    const ageChangeHandler = (event) => {
+        setUserAge(event.target.value)
+        console.log(userAge)
+    }
+    
+
     const formSubmitHandler = (event) => {
         console.log(userName,userAge)
         event.preventDefault()
@@ -12,17 +23,6 @@ const NewUser = (props) => {
             name: userName,
             age:userAge
         })
-
-        const nameChangeHandler = (event) => {
-            setUserName(event.target.value)
-            console.log(userName)
-        }
-    
-        const ageChangeHandler = (event) => {
-            setUserAge(event.target.value)
-            console.log(userAge)
-        }
-        
 
         setNewUserForm(
             <form className='new-user-form' onSubmit={formSubmitHandler}>
