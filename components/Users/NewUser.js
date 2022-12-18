@@ -64,7 +64,7 @@ const NewUser = (props) => {
 
     return (
         <div>
-                
+               {newUserForm} 
         </div>
     )
 }
