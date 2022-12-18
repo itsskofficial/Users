@@ -24,6 +24,8 @@ const NewUser = (props) => {
                 message:'Please enter valid name and age'
             })
         }
+
+        if (userAge===0)
         props.onAddUser({
             name: userName,
             age:userAge
