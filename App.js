@@ -13,7 +13,7 @@ const App = () => {
       age: 19
     },
     {
-      key:1
+      key:1,
       name:'Ojaswini',
       age:19
     }
