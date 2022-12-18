@@ -30,6 +30,7 @@ const NewUser = (props) => {
                 title:'Invalid Age',
                 message:'Please enter age greater than 0'
             })
+            return
         }
         props.onAddUser({
             key:Math.random(),
