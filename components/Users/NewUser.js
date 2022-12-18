@@ -8,7 +8,6 @@ const NewUser = (props) => {
 
     const nameChangeHandler = (event) => {
         setUserName(event.target.value)
-
     }
 
     const ageChangeHandler = (event) => {
