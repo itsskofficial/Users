@@ -19,7 +19,7 @@ const ErrorModal = (props) => {
                     </p>
                 </div>
                 <footer className='error-actions'>
-                    <Button>
+                    <Button onClick={props.onConfirm}>
                         Okay
                     </Button>
                 </footer>
