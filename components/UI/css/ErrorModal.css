@@ -27,11 +27,12 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
   }
   
   .error-content {
     padding: 1rem;
+    color
   }
   
   .error-actions {
