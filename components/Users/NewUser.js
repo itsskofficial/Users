@@ -42,6 +42,7 @@ const NewUser = (props) => {
 
     const ageChangeHandler = (event) => {
         setUserAge(event.target.value)
+        console.log(userAge)
     }
 
 
