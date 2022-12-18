@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './css/NewUser.css'
 import Button from '../UI/Button'
+import ErrorModal from '../UI/ErrorModal'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
@@ -17,7 +18,7 @@ const NewUser = (props) => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
         if (userName.trim().length === 0 || userAge.trim().length === 0) {
-            
+            <ErrorModal title=''
         }
         props.onAddUser({
             name: userName,
