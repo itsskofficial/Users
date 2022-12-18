@@ -21,7 +21,7 @@ const NewUser = (props) => {
         if (userName.trim().length === 0 || userAge.trim().length === 0) {
             setError({
                 title:'Invalid Input',
-                message:'Please enter '
+                message:'Please enter valid name and age'
             })
         }
         props.onAddUser({
