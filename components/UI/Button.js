@@ -1,4 +1,4 @@
-
+import './css/Button.css'
 
 const Button = (props) => {
     return (
@@ -6,3 +6,5 @@ const Button = (props) => {
         </button>
     )
 }
+
+export default 
