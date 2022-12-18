@@ -6,24 +6,24 @@ const ErrorModal = (props) => {
     return (
         <div>
             <div className='error-backdrop'>
-        </div>
-        <Card className='error-modal'>
-            <header className='error-header'>
-                <h2>
-                    {props.title}
-                </h2>
-            </header>
-            <div className='error-content'>
-                <p>
-                    {props.message}
-                </p>
             </div>
-            <footer className='error-actions'>
-                <Button>
-                    Okay
-                </Button>
-            </footer>
-        </Card>
+            <Card className='error-modal'>
+                <header className='error-header'>
+                    <h2>
+                        {props.title}
+                    </h2>
+                </header>
+                <div className='error-content'>
+                    <p>
+                        {props.message}
+                    </p>
+                </div>
+                <footer className='error-actions'>
+                    <Button>
+                        Okay
+                    </Button>
+                </footer>
+            </Card>
         </div>
         
     )
