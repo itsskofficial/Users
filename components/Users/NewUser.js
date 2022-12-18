@@ -4,7 +4,8 @@ import './css/NewUser.css'
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
     const [userAge, setUserAge] = useState()
-    const [newUserForm,setNewUserForm] = useState(<form className='new-user-form' onSubmit={formSubmitHandler}>
+    const [newUserForm, setNewUserForm] = useState(
+        <form className='new-user-form' onSubmit={formSubmitHandler}>
     <div className='new-user-forn-label-container'>
         <h2 className='new-user-form-label'>
             Enter details
