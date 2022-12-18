@@ -35,7 +35,7 @@ const App = () => {
       {usersList.map((user) => (
         <User user={user}>
         </User>
-      })}
+      ))}
     </div>
   );
 }
