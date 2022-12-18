@@ -34,6 +34,15 @@ const NewUser = (props) => {
         )
     }
 
+    const nameChangeHandler = (event) => {
+        setUserName(event.target.value)
+    }
+
+    const ageChangeHandler = (event) => {
+        setUserAge(event.target.value)
+    }
+    
+
     const [newUserForm, setNewUserForm] = useState(
         <form className='new-user-form' onSubmit={formSubmitHandler}>
                     <div className='new-user-forn-label-container'>
