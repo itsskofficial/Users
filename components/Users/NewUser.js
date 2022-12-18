@@ -7,11 +7,11 @@ const NewUser = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault()
-        event.stopPropagation()
         props.onAddUser({
             name: userName,
             age:userAge
         })
+        
     }
 
     const nameChangeHandler = (event) => {
@@ -24,24 +24,7 @@ const NewUser = (props) => {
 
     return (
         <div>
-                <form className='new-user-form' onSubmit={formSubmitHandler}>
-                    <div className='new-user-forn-label-container'>
-                        <h2 className='new-user-form-label'>
-                            Enter details
-                        </h2>
-                    </div>
-                    <div className='new-user-form-input-container'>
-                        <input className='new-user-form-input-name' placeholder='Enter name' onChange={nameChangeHandler}>
-                        </input>
-                        <input className='new-user-form-input-age' placeholder='Enter age' onChange={ageChangeHandler}>
-                        </input>
-                    </div>
-                    <div className = 'new-user-form-actions'>
-                        <button className='new-user-form-button' type='submit'>
-                            Add User
-                        </button>
-                    </div>
-                </form>
+                
         </div>
     )
 }
