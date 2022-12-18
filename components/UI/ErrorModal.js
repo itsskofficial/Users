@@ -4,6 +4,7 @@ import Button from './Button'
 
 const ErrorModal = (props) => {
     return (
+        <div className=''
         <Card className='error-modal'>
             <header className='error-header'>
                 <h2>
