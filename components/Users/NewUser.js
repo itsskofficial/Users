@@ -35,6 +35,7 @@ const NewUser = (props) => {
             name: userName,
             age:userAge
         })
+        
         setUserName('')
         setUserAge('')
     }
