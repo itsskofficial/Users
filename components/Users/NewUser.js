@@ -40,7 +40,9 @@ const NewUser = (props) => {
         setUserAge('')
     }
 
-    const errorHandler
+    const errorHandler = () => {
+        setError(null)
+    }
 
     return (
         <div>
