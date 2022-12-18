@@ -8,7 +8,7 @@ const NewUser = (props) => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropagation()
-        props.
+        props.addNewUser()
     }
 
     const nameChangeHandler = (event) => {
