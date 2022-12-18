@@ -38,7 +38,9 @@ const NewUser = (props) => {
                         </input>
                     </div>
                     <div className = 'new-user-form-actions'>
-                        <Button type='submit' onClick={formSubmitHandler}
+                        <Button type='submit' onClick={formSubmitHandler}>
+                            Add User
+                        </Button>
                     </div>
                 </form>
         )
