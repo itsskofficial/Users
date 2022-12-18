@@ -6,6 +6,7 @@ import ErrorModal from '../UI/ErrorModal'
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
     const [userAge, setUserAge] = useState('')
+    const [error,setError] = useState('')
 
     const nameChangeHandler = (event) => {
         setUserName(event.target.value)
