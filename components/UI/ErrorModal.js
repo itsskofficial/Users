@@ -10,7 +10,7 @@ const ErrorModal = (props) => {
                     {props.title}
                 </h2>
             </header>
-            <div>
+            <div className='error-content'>
                 <p>
                     {props.message}
                 </p>
