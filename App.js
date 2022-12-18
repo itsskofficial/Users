@@ -33,7 +33,7 @@ const App = () => {
         </NewUser>
       </Card>
       {usersList.map((user) => {
-        
+        <User users=user
       })}
       <User user={users[0]}>
       </User>
