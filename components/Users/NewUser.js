@@ -3,7 +3,8 @@ import './css/NewUser.css'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
-    const [userAge,setUserAge] = useState()
+    const [userAge, setUserAge] = useState()
+    const []
 
     const formSubmitHandler = (event) => {
         event.preventDefault()
@@ -11,6 +12,7 @@ const NewUser = (props) => {
             name: userName,
             age:userAge
         })
+
         setNewUserForm(
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                     <div className='new-user-forn-label-container'>
