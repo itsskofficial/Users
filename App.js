@@ -8,11 +8,12 @@ const App = () => {
 
   let users = [
     {
-      key:
+      key:0,
       name: 'Sarthak',
       age: 19
     },
     {
+      key:1
       name:'Ojaswini',
       age:19
     }
