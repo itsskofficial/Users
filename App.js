@@ -8,7 +8,7 @@ const App = () => {
 
   let users = [
     {
-      key:0,
+      key:Math.random(),
       name: 'Sarthak',
       age: 19
     },
