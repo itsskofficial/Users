@@ -3,7 +3,7 @@ import './css/NewUser.css'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
-    const [userAge, setUserAge] = useState()
+    const [userAge, setUserAge] = useState(0)
 
     const formSubmitHandler = (event) => {
         console.log(userName,userAge)
