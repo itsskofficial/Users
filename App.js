@@ -32,7 +32,7 @@ const App = () => {
         <NewUser onAddUser = {addNewUserHandler}>
         </NewUser>
       </Card>
-      
+      {usersList.}
       <User user={users[0]}>
       </User>
       <User user={users[1]}>
