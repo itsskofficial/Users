@@ -1,5 +1,6 @@
 import './css/ErrorModal.css'
 import Card from './Card'
+import Button from './Button'
 
 const ErrorModal = (props) => {
     return (
@@ -7,13 +8,17 @@ const ErrorModal = (props) => {
             <header>
                 <h2>
                 </h2>
-            </header>.
+            </header>
             <div>
                 <p>
 
                 </p>
             </div>
-            <foo
+            <footer>
+                <Button>
+
+                </Button>
+            </footer>
         </Card>
     )
 }
