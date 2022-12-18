@@ -35,10 +35,12 @@ const NewUser = (props) => {
             name: userName,
             age:userAge
         })
-        
+
         setUserName('')
         setUserAge('')
     }
+
+    const errorHandler
 
     return (
         <div>
