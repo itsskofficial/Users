@@ -37,6 +37,7 @@ const NewUser = (props) => {
 
     const nameChangeHandler = (event) => {
         setUserName(event.target.value)
+        console.log(userName)
     }
 
     const ageChangeHandler = (event) => {
