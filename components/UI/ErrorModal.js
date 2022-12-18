@@ -5,9 +5,7 @@ import Button from './Button'
 const ErrorModal = (props) => {
     return (
         <div>
-            
-        </div>
-        <div className='error-backdrop'>
+            <div className='error-backdrop'>
         </div>
         <Card className='error-modal'>
             <header className='error-header'>
@@ -26,6 +24,8 @@ const ErrorModal = (props) => {
                 </Button>
             </footer>
         </Card>
+        </div>
+        
     )
 }
 
