@@ -6,7 +6,11 @@ const ErrorModal = (props) => {
         <Card>
             <header>
                 <h2>
-                
+                </h2>
+            </header>.
+            <div>
+                <
+            </div>
         </Card>
     )
 }
