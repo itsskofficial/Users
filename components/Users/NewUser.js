@@ -25,7 +25,9 @@ const NewUser = (props) => {
             })
         }
 
-        if (userAge===0)
+        if (userAge === 0) {
+            setError()
+        }
         props.onAddUser({
             name: userName,
             age:userAge
