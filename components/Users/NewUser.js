@@ -20,7 +20,7 @@ const NewUser = (props) => {
         event.preventDefault()
         if (userName.trim().length === 0 || userAge.trim().length === 0) {
             setError({
-                
+                title:'I'
             })
         }
         props.onAddUser({
