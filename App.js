@@ -35,7 +35,7 @@ const App = () => {
         </NewUser>
       </Card>
       {usersList.map((user,index) => (
-        <User user={user}>
+        <User user={user} key={index}>
         </User>
       ))}
     </div>
