@@ -16,7 +16,7 @@ const NewUser = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault()
-        if user
+        if (userName.trim()
         props.onAddUser({
             name: userName,
             age:userAge
