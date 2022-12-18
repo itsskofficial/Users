@@ -10,7 +10,7 @@ const NewUser = (props) => {
         event.stopPropagation()
         props.addNewUser({
             name: userName,
-            age:
+            age:userAge
         })
     }
 
