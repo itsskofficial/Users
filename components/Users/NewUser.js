@@ -33,7 +33,7 @@ const NewUser = (props) => {
         }
         props.onAddUser({
             name: userName,
-            age:userAge
+            age:userAge,
         })
 
         setUserName('')
