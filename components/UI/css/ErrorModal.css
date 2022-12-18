@@ -34,7 +34,9 @@
     padding: 1rem;
   }
 
-  v
+  .error-content p{
+    color: ;
+  }
   
   .error-actions {
     padding: 1rem;
