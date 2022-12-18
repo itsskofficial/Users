@@ -15,7 +15,7 @@ const ErrorModal = (props) => {
                     {props.message}
                 </p>
             </div>
-            <footer>
+            <footer className='error'>
                 <Button>
                     Okay
                 </Button>
