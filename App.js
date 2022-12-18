@@ -34,8 +34,8 @@ const App = () => {
         <NewUser onAddUser = {addNewUserHandler}>
         </NewUser>
       </Card>
-      {usersList.map((user,index) => (
-        <User user={user} key={index}>
+      {usersList.map((user) => (
+        <User user={user}>
         </User>
       ))}
     </div>
