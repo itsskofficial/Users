@@ -38,7 +38,7 @@ const App = () => {
         <User user={user} key={user.key}>
         </User>
       ))}
-    </div>
+    </Fragment>
   );
 }
 
