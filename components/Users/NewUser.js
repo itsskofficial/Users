@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import './css/NewUser.css'
 import Button from '../UI/Button'
 import ErrorModal from '../UI/ErrorModal'
@@ -49,7 +49,7 @@ const NewUser = (props) => {
     }
 
     return (
-        <Wrapper>
+        <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}></ErrorModal>}
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                 <div className='new-user-forn-label-container'>
