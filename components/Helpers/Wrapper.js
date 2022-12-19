@@ -1,1 +1,3 @@
-const Wrapper = ()
+const Wrapper = (props) => {
+    
+}
