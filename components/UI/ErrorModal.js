@@ -1,7 +1,7 @@
 import './css/ErrorModal.css'
 import Card from './Card'
 import Button from './Button'
-import 'ReactDom' from 're'
+import ReactDom from 're'
 
 const Backdrop = (props) => {
     return (
