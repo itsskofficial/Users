@@ -3,7 +3,9 @@ import Card from './Card'
 import Button from './Button'
 
 const Backdrop = (props) => {
-    
+    return (
+        
+    )
 }
 
 const ErrorModal = (props) => {
