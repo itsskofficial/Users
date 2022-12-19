@@ -1,2 +1,3 @@
 const Wrapper = (props) => {
-    props.children
+    return props.children
+}
