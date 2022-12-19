@@ -1,7 +1,7 @@
 import './css/ErrorModal.css'
 import Card from './Card'
 import Button from './Button'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import { Fragment } from 'react'
 
 const Backdrop = (props) => {
@@ -36,7 +36,7 @@ const ModalOverlay = (props) => {
 const ErrorModal = (props) => {
     return (
         <Fragment>
-            {ReactDom.createPortal()}
+            {ReactDOM.createPortal()}
             
         </Fragment>
         
