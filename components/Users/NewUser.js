@@ -69,7 +69,7 @@ const NewUser = (props) => {
                     </Button>
                 </div>
             </form>
-        </Wrapper>
+        </Fragment>
     )
 }
 
