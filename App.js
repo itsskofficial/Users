@@ -2,7 +2,7 @@ import User from "./components/Users/User"
 import NewUser from "./components/Users/NewUser"
 import Card from './components/UI/Card'
 import './index.css'
-import { useState } from "react"
+import { Fragment, useState } from "react"
 
 const App = () => {
 
@@ -29,7 +29,7 @@ const App = () => {
 
   
   return (
-    <div className='container'>
+    <Fragment className='container'>
       <Card className='new-user-container'>
         <NewUser onAddUser = {addNewUserHandler}>
         </NewUser>
