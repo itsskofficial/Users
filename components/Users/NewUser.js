@@ -50,8 +50,6 @@ const NewUser = (props) => {
 
     return (
         <Wrapper>
-            
-       </Wrapper>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}></ErrorModal>}
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                 <div className='new-user-forn-label-container'>
