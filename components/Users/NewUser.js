@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './css/NewUser.css'
 import Button from '../UI/Button'
 import ErrorModal from '../UI/ErrorModal'
+import Wrapper from '../Helpers/Wrapper'
 
 const NewUser = (props) => {
     const [userName, setUserName] = useState('')
@@ -48,7 +49,9 @@ const NewUser = (props) => {
     }
 
     return (
-        <div>
+        <Wrapper>
+            
+       </Wrapper>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}></ErrorModal>}
             <form className='new-user-form' onSubmit={formSubmitHandler}>
                 <div className='new-user-forn-label-container'>
