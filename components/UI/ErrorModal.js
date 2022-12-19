@@ -4,15 +4,15 @@ import Button from './Button'
 
 const Backdrop = (props) => {
     return (
-        <
+        <div className='error-backdrop' onClick={props.onConfirm}>
+        </div>
     )
 }
 
 const ErrorModal = (props) => {
     return (
         <div>
-            <div className='error-backdrop' onClick={props.onConfirm}>
-            </div>
+            
             <Card className='error-modal'>
                 <header className='error-header'>
                     <h2>
