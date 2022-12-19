@@ -11,7 +11,23 @@ const Backdrop = (props) => {
 
 const ModalOverlay = (props) => {
     return (
-
+        <Card className='error-modal'>
+                <header className='error-header'>
+                    <h2>
+                        {props.title}
+                    </h2>
+                </header>
+                <div className='error-content'>
+                    <p>
+                        {props.message}
+                    </p>
+                </div>
+                <footer className='error-actions'>
+                    <Button onClick={props.onConfirm}>
+                        Okay
+                    </Button>
+                </footer>
+            </Card>
     )
 }
 
