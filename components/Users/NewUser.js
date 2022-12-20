@@ -5,9 +5,8 @@ import ErrorModal from '../UI/ErrorModal'
 import Wrapper from '../Helpers/Wrapper'
 
 const NewUser = (props) => {
-    const [userName, setUserName] = useState('')
-    const [userAge, setUserAge] = useState('')
-    const [error,setError] = useState(null)
+    const [error, setError] = useState(null)
+    
 
     const nameChangeHandler = (event) => {
         setUserName(event.target.value)
