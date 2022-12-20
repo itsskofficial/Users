@@ -29,8 +29,8 @@ const NewUser = (props) => {
         }
         props.onAddUser({
             key:Math.random(),
-            name: userName,
-            age: userAge,
+            name: userName.current.value,
+            age: userAge.current.,
         })
 
     }
