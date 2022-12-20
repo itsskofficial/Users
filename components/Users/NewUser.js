@@ -6,8 +6,9 @@ import Wrapper from '../Helpers/Wrapper'
 
 const NewUser = (props) => {
     const [error, setError] = useState(null)
-    
+
     const userName = useRef()
+    const userAge = useRef()
 
     const nameChangeHandler = (event) => {
         setUserName(event.target.value)
