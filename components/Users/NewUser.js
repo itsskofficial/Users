@@ -2,7 +2,6 @@ import { Fragment, useRef, useState } from 'react'
 import './css/NewUser.css'
 import Button from '../UI/Button'
 import ErrorModal from '../UI/ErrorModal'
-import Wrapper from '../Helpers/Wrapper'
 
 const NewUser = (props) => {
     const [error, setError] = useState(null)
