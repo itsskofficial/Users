@@ -10,14 +10,6 @@ const NewUser = (props) => {
     const userName = useRef()
     const userAge = useRef()
 
-    const nameChangeHandler = (event) => {
-        setUserName(event.target.value)
-    }
-
-    const ageChangeHandler = (event) => {
-        setUserAge(event.target.value)
-    }
-
     const formSubmitHandler = (event) => {
         event.preventDefault()
         if (userName.trim().length === 0 || userAge.trim().length === 0) {
