@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useRef, useState } from 'react'
 import './css/NewUser.css'
 import Button from '../UI/Button'
 import ErrorModal from '../UI/ErrorModal'
