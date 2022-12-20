@@ -33,7 +33,8 @@ const NewUser = (props) => {
             age: userAge.current.value,
         })
 
-        
+        userName.current.value = ''
+        userAge.current.value=''
 
     }
 
